@@ -27,7 +27,23 @@ public class DeveloperTest {
 
     @Test
     public void getGithubId_returns_correct_githubId() {
-        assertEquals("katelarrick", Developer.getName());
+        assertEquals("katelarrick", Developer.getGithubId());
+    }
+
+    @Test
+    public void getTeam_returns_team_with_correct_name() {
+        Team  t = Developer.getTeam();
+        assertEquals("f25-00", t.getName());
+    }
+
+    @Test
+    public void getTeam_returns_team_with_correct_members() {
+        Team  t = Developer.getTeam();
+        assertTrue(t.getMembers().contains("Divyani"),"Team should contain Divyani");
+        assertTrue(t.getMembers().contains("Daniel"),"Team should contain Daniel");
+        assertTrue(t.getMembers().contains("Derek"),"Team should contain Derek");
+        assertTrue(t.getMembers().contains("Sanjay"),"Team should contain Sanjay");
+        assertTrue(t.getMembers().contains("Sam"),"Team should contain Sam");
     }
 
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
