@@ -43,7 +43,8 @@ public class DeveloperTest {
         assertTrue(t.getMembers().contains("Daniel"),"Team should contain Daniel");
         assertTrue(t.getMembers().contains("Derek"),"Team should contain Derek");
         assertTrue(t.getMembers().contains("Sanjay"),"Team should contain Sanjay");
-        assertTrue(t.getMembers().contains("Sam"),"Team should contain Sam");
+        assertTrue(t.getMembers().contains("Samuel"),"Team should contain Samuel");
+        assertTrue(t.getMembers().contains("Phill"),"Team should contain Phill");
     }
 
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and

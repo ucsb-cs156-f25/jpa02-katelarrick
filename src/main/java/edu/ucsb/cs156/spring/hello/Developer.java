@@ -39,7 +39,8 @@ public class Developer {
         team.addMember("Daniel");
         team.addMember("Derek");
         team.addMember("Sanjay");
-        team.addMember("Sam");
+        team.addMember("Samuel");
+        team.addMember("Phill");
         return team;
     }
 }
