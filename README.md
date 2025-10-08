@@ -1,9 +1,6 @@
 # jpa02-katelarrick
 
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-f25/jpa02-cgaucho
+Link to repo: https://github.com/ucsb-cs156-f25/jpa02-katelarrick
 
 Deployed at: https://jpa02-katelarrick.dokku-00.cs.ucsb.edu
 
